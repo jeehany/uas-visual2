@@ -36,6 +36,7 @@ type
     procedure btnBatalClick(Sender: TObject);
     procedure btnBaruClick(Sender: TObject);
     procedure cbMemberChange(Sender: TObject);
+    procedure btnCetakClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -270,5 +271,9 @@ begin
 end;
 
 
+procedure TForm1.btnCetakClick(Sender: TObject);
+begin
+  Form2.QuickRep1.Preview;
+end;
 
 end.

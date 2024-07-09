@@ -165,6 +165,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'CETAK'
     TabOrder = 11
+    OnClick = btnCetakClick
   end
   object cbMember: TComboBox
     Left = 152
